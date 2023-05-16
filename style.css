@@ -1,0 +1,140 @@
+@font-face {
+    font-family: vazir-light;
+    src: url("webfonts/Vazirmatn-Light.woff2");
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url("webfonts/Vazirmatn-ExtraBold.woff2");
+}
+
+*{
+    padding : 0;
+    margin : 0;
+}
+
+
+nav{
+    padding : 5px;
+    background : rgb(33, 1, 39);
+    width: 100%;
+}
+
+h3{
+    color : #fff;
+}
+
+.navbar{
+    display: flex;
+    align-items : center !important;
+}
+
+.youtube{
+    color : red;
+}
+
+.whatsapp{
+    color : rgb(0, 102, 63);
+}
+
+.profile{
+    height : 100vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-photo{
+    text-align: center;
+}
+
+.circular--landscape {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%; 
+    margin-top: -100px;
+} 
+
+
+
+
+
+.circular--landscape img { width: auto; height: 100%; margin-left: -50px; }
+
+.header{
+    width : 100%;
+    height : 300px;
+    background: rgb(33, 1, 39);
+}
+
+h2{
+    font-family: vazir-bold;
+    color : purple;
+}
+
+.insta{
+    color : rgb(255, 0, 119);
+}
+
+a{
+    text-decoration: none;
+    color : #111;
+}
+
+p{
+    color : #111;
+    font-family: vazir-light;
+}
+
+.about-btn{
+    padding : 7px;
+    border : none;
+    width : 130px;
+    background : rgb(130, 10, 160);
+    color : #fff;
+    border-radius : 50px;
+    transition: .3s;
+}
+
+.about-btn:hover{
+    background :rgb(86, 5, 99);
+}
+
+.pre_loader{
+    width : 100%;
+    height: 100%;
+    background : #ffff url("preloader-img.gif") no-repeat fixed center center;
+    background-size : 400px;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.new-page{
+    display: none;
+    width : 100%;
+    height: 100vh;
+    background : #ffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    
+}
+
+
+
+.footer{
+    background : #3b2302;
+    height : 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    margin-top: 10 px;
+}
